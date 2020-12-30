@@ -20,7 +20,7 @@ const Team = () => {
                 <Person
                     img='/img/team/phuoc.jpg'
                     name='Phuoc'
-                    role='Manager testtt1111111111111111'
+                    role='Manager testtt11111111111111112222222222222222'
                 />
                 <Person
                     img='/img/team/tu.jpg'
