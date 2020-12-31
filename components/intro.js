@@ -25,8 +25,8 @@ const Intro = () => {
                     alignItems: 'center',
                 }}
             >
-                <h1>UDP</h1>
-                <p style={{maxWidth: '90%'}}>We provice Data Mining and Natural Language Processing solutions for the insightful benefits.</p>
+                <h1>Accompany Your Business on the Journey to Digital Transformation</h1>
+                <p style={{maxWidth: '90%'}}>We provice NLP-based AI solutions for making the most out of your business data.</p>
                 <Button variant='contained' color='primary'>LEARN MORE</Button>
             </div>
         </Paper>
