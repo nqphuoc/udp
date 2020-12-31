@@ -15,14 +15,14 @@ export default function Home() {
   const [visibleSection, setVisibleSection] = useState();
 
   const headerRef = useRef(null);
-  //const technologyRef = useRef(null);
+  const technologyRef = useRef(null);
   const aboutRef = useRef(null);
   const solutionRef = useRef(null);
   const teamRef = useRef(null);
   const contactRef = useRef(null);
 
   const sectionRefs = [
-    //{section: 'technology', ref: technologyRef},
+    {section: 'technology', ref: technologyRef},
     {section: 'about', ref: aboutRef},
     {section: 'solutions', ref: solutionRef},
     {section: 'team', ref: teamRef},
@@ -89,9 +89,9 @@ export default function Home() {
   const scrollToSection = (section) => {
 
     switch(section){
-//      case 'technology':
-//        scrollTo(technologyRef.current);
-//        break;
+      case 'technology':
+        scrollTo(technologyRef.current);
+        break;
 
       case 'about':
         scrollTo(aboutRef.current);
@@ -123,10 +123,10 @@ export default function Home() {
       <main>
         <Intro />
 
-//        <div ref={technologyRef} className='feature' style={{backgroundColor: '#f6f6f6', textAlign: 'center'}}>
-//          <SectionHeader name='Core Technology' />
-//          <CoreTechnology />
-//        </div>
+        <div ref={technologyRef} className='feature' style={{backgroundColor: '#f6f6f6', textAlign: 'center'}}>
+          <SectionHeader name='Core Technology' />
+          <CoreTechnology />
+        </div>
 
         <div ref={aboutRef} className='feature'>
           <AboutUs />
