@@ -25,8 +25,8 @@ const Intro = () => {
                     alignItems: 'center',
                 }}
             >
-                <h1>Accompany Your Business on the Journey to Digital Transformation</h1>
-                <p style={{maxWidth: '90%'}}>We provice NLP-based AI solutions for making the most out of your business data.</p>
+                <h1>Accelerate your Digital transformation</h1>
+                <p style={{maxWidth: '90%'}}>We provice NLP-based AI solutions to accompany Your Business on the journey to digital transformation.</p>
                 <Button variant='contained' color='primary'>LEARN MORE</Button>
             </div>
         </Paper>
