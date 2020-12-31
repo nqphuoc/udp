@@ -2,7 +2,7 @@ import Head from 'next/head';
 
 import AppNavigator from '../components/navigator';
 import Intro from '../components/intro';
-//import CoreTechnology from '../components/core_technology';
+import CoreTechnology from '../components/core_technology';
 import AboutUs from '../components/about_us';
 import Solutions from '../components/solutions';
 import Team from '../components/team';
