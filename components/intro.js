@@ -26,7 +26,7 @@ const Intro = () => {
                 }}
             >
                 <h1>Making Your Business Data Beneficial</h1>
-                <p style={{maxWidth: '90%'}}>We provide NLP-based AI solutions to achieve insightful benefits from your business data.</p>
+                <p style={{maxWidth: '90%'}}>UDP Sol provides NLP-based AI solutions to achieve insightful benefits from your business data.</p>
                 <Button variant='contained' color='primary'>LEARN MORE</Button>
             </div>
         </Paper>

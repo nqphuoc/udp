@@ -11,20 +11,27 @@ const AboutUs = () => {
             </div>
             <div className='about_detail' style={{flex: 2, display: 'flex', flexDirection: 'column', fontSize: 15}}>
                 <SectionHeader name='about us' align='left' />
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <h3>Services</h3>
+                <p>Established in Seoul, S. Korea in 2020, UDP Sol (User Data Processing Solution) is an entrepreneur gathering Data Scientists and Natural Language Processing Specialists.</p>
+                <p>The mission UDP Sol (User Data Processing Solution) is an entrepreneur gathering Data Scientists and Natural Language Processing Specialists.</p>
+                <h3>Insightful Benefits</h3>
                 <ul>
-                    <li>Lorem ipsum dolor</li>
-                    <li>Tempor incididunt</li>
-                    <li>Lorem ipsum dolor</li>
-                    <li>Incididunt ut labore</li>
+                    <li>Reduce Costs from Day One</li>
                 </ul>
+
+                <ul>
+                    <li>Increase Customer Satisfaction</li>
+                </ul>
+
+                <ul>
+                    <li>Boost Employee Productivity</li>
+                </ul>
+
                 <h3>Solutions</h3>
                 <div className='ul'>
                     <ul>
-                        <li>Lorem ipsum dolor</li>
-                        <li>Tempor incididunt</li>
-                        <li>Lorem ipsum dolor</li>
+                        <li>Reduce Costs from Day One</li>
+                        <li>Increase Customer Satisfaction</li>
+                        <li>Boost Employee Productivity</li>
                         <li>Incididunt ut labore</li>
                     </ul>
                     <ul>
